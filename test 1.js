@@ -1,3 +1,7 @@
-var myStr ="this is the first sentence "
-myStr +="this is the second sentence"
-console.log(myStr)
+function testEqual(val){
+    if(val==12) {
+        return"Equal";
+    }
+     return"Not Equal";
+}
+console.log(testEqual(10));
